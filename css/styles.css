@@ -1,26 +1,41 @@
 /* Color Palette
-# - color 1
-# - color 2
-# - color 3
-# - color 4
+#222831 - Charcoal --> Header and footer backgrounds
+#393E46 - Slate --> Main text on light backgrounds
+#00ADB5 - Teal --> Education background, with charcoal text
+#EEEEEE - Off-white --> Work Experience background; text on dark backgrounds
 */
 
 /* Global styles 
 ------------------------------------*/
-body {
-    background: lightblue;
-}
 
 
 /* Header & Footer 
 ------------------------------------*/
+header{
+    background: #222831;
+    color: #EEEEEE;
+}
 
+footer{
+    background: #222831;
+    color: #EEEEEE;
+}
+
+footer a {
+    color: #EEEEEE;
+}
 
 
 /* Work Experience
 ------------------------------------*/
-
-
+.work-experience{
+    background: #EEEEEE;
+    color: #393E46;
+}
 
 /* Education
 ------------------------------------*/
+.education{
+    background: #00ADB5;
+    color: #222831;
+}
