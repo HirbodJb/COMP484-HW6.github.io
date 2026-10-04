@@ -7,6 +7,13 @@
 
 /* Global styles 
 ------------------------------------*/
+body {
+    font-family: "Source Sans 3", Arial, sans-serif;
+}
+
+h1, h2 {
+    font-family: "Merriweather", Georgia, serif;
+}
 
 
 /* Header & Footer 
