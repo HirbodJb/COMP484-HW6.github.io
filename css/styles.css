@@ -1,13 +1,14 @@
 /* Color Palette
-#222831 - Charcoal --> Header and footer backgrounds
-#393E46 - Slate --> Main text on light backgrounds
-#00ADB5 - Teal --> Education background, with charcoal text
-#EEEEEE - Off-white --> Work Experience background; text on dark backgrounds
+#222831 - Charcoal    --> Header and footer backgrounds
+#393E46 - Slate       --> Main text on light backgrounds
+#00ADB5 - Teal        --> Education background, with charcoal text
+#EEEEEE - Off-white   --> Work Experience background; text on dark backgrounds
 */
 
 /* Global styles 
 ------------------------------------*/
 body {
+    margin: 0; /* Remove the default browser margin */
     font-family: "Source Sans 3", Arial, sans-serif;
     font-size: 1rem;
     line-height: 1.6;
@@ -32,6 +33,11 @@ h3 {
     font-weight: 600;
 }
 
+header, section, footer {
+    display: flow-root; /* make sure layers are properly stacked */
+    padding: 24px 32px; /* add padding for better spacing */
+}
+
 /* Header & Footer 
 ------------------------------------*/
 header{
@@ -47,7 +53,6 @@ footer{
 footer a {
     color: #EEEEEE;
 }
-
 
 /* Work Experience
 ------------------------------------*/
